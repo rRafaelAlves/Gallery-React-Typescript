@@ -33,6 +33,7 @@ text-align: center;
 
 export const PhotoList = styled.div`
 display: grid;
-grid-template-columns: reapete(4, 1fr);
+grid-template-columns: auto auto auto auto;
 gap: 10px;
+
 `
